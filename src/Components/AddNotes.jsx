@@ -1,4 +1,4 @@
-import { useState,useContext } from "react"
+import { useState } from "react"
 
 function AddNotes({handleAddNote}) {
     const [noteText,setNoteText] = useState('')
